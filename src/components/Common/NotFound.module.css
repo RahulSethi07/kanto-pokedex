@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  gap: 1.25rem;
+  justify-items: center;
+  padding: 3rem 1.5rem;
+}
+
+.link {
+  font-weight: 600;
+  color: #1f6feb;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

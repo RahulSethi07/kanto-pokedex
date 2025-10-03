@@ -1,0 +1,32 @@
+.error {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: #fff4f4;
+  border: 1px solid #f2aaaa;
+  color: #7a1d1d;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.retry {
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #f06a6a, #f29f9f);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.retry:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(240, 106, 106, 0.35);
+}
+
+.retry:focus-visible {
+  outline: 2px solid #7a1d1d;
+  outline-offset: 3px;
+}
