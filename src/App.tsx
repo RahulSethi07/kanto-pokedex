@@ -9,7 +9,7 @@ import { PokemonProvider } from './context/PokemonContext';
 import './App.css';
 
 const App: React.FC = () => (
-  <BrowserRouter basename="kantopokedex">
+  <BrowserRouter basename="kanto-pokedex">
     <PokemonProvider>
       <Layout>
         <Routes>
