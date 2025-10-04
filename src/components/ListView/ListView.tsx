@@ -62,7 +62,7 @@ const ListView: React.FC = () => {
         <div>
           <h1 id="list-heading">Pokémon Roster</h1>
           <p className={styles.subtitle}>
-            Search, sort, and explore the first-generation Pokemons.
+            Search, sort, and explore the original 151 Pokémon.
           </p>
         </div>
         <div className={styles.controls}>
