@@ -23,7 +23,7 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => (
     </header>
     <main className={styles.mainContent}>{children}</main>
     <footer className={styles.footer}>
-      Data supplied by <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">PokéAPI</a>
+      Data provided by <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">PokéAPI</a>
     </footer>
   </div>
 );
